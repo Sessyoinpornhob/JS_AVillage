@@ -9,7 +9,7 @@
 
     <!-- MDUI CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/css/mdui.min.css"/>
-    <title>Hello, world!</title>
+    <title>CUC Course Guide</title>
 
     <style>
       .banner{
@@ -21,7 +21,8 @@
         text-align: center;
       }
       .mdui-card{
-        margin-top: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
       }
     </style>
   </head>
@@ -37,7 +38,7 @@
     <div class="mdui-color-teal-300 mdui-container-fluid" style="height: 70px;">
 
       <div class="mdui-row">
-        <div class="mdui-col-md-4 mdui-col-offset-md-4">
+        <div class="mdui-col-md-4 mdui-col-offset-md-4 mdui-col-xs-4 mdui-col-offset-xs-4">
           <!-- 搜索输入框 -->
           <div class="mdui-textfield">
             <i class="mdui-icon material-icons">account_circle</i>
@@ -53,11 +54,11 @@
 
       <div class="mdui-row">
 
-        <div class="mdui-col-md-4">
-          <div class="mdui-card mdui-ripple" href="Course1.html">
+        <div class="mdui-col-md-4 mdui-col-sm-6">
+          <div class="mdui-card mdui-ripple">
             <!-- 卡片的图片 -->
             <div class="mdui-card-media">
-              <img src="1.jpg"/>
+              <img src="imges\2.jpg"/>
             </div>
             <!-- 卡片的标题和副标题 -->
             <div class="mdui-card-primary">
@@ -66,53 +67,91 @@
             </div>
             <!-- 卡片的文本内容 -->
             <div class="mdui-card-content">该课程是数字媒体艺术(网络与智能媒体设计方向）专业的必修课程，其特点是概念多、涉及面广、实践性强...</div>
+            <!-- 卡片的按钮 -->
+            <div class="mdui-card-actions">
+              <button class="mdui-btn mdui-btn-icon mdui-float-right">
+                <a class="mdui-icon material-icons" href="Course1.html">arrow_forward</a>
+              </button>
+            </div>
           </div>
         </div>
 
-        <div class="mdui-col-md-4">
+        <div class="mdui-col-md-4 mdui-col-sm-6">
           <div class="mdui-card">
             <div class="mdui-card-media">
-              <img src="1.jpg"/>
+              <img src="imges\2.jpg"/>
             </div>
             <div class="mdui-card-primary">
               <div class="mdui-card-primary-title">人机交互技术与应用</div>
               <div class="mdui-card-primary-subtitle">孙国玉 李海燕</div>
             </div>
             <div class="mdui-card-content">该课程是数字媒体艺术(网络与智能媒体设计方向）专业的必修课程，其特点是概念多、涉及面广、实践性强...</div>
+            <div class="mdui-card-actions">
+              <button class="mdui-btn mdui-btn-icon mdui-float-right">
+                <i class="mdui-icon material-icons">arrow_forward</i>
+              </button>
+            </div>
           </div>
         </div>
 
-        <div class="mdui-col-md-4">
+        <div class="mdui-col-md-4 mdui-col-sm-6">
           <div class="mdui-card">
             <div class="mdui-card-media">
-              <img src="1.jpg"/>
+              <img src="imges\2.jpg"/>
             </div>
             <div class="mdui-card-primary">
               <div class="mdui-card-primary-title">人机交互技术与应用</div>
               <div class="mdui-card-primary-subtitle">孙国玉 李海燕</div>
             </div>
             <div class="mdui-card-content">该课程是数字媒体艺术(网络与智能媒体设计方向）专业的必修课程，其特点是概念多、涉及面广、实践性强...</div>
+            <div class="mdui-card-actions">
+              <button class="mdui-btn mdui-btn-icon mdui-float-right">
+                <i class="mdui-icon material-icons">arrow_forward</i>
+              </button>
+            </div>
           </div>
         </div>
 
-        <div class="mdui-col-md-4">
+        <div class="mdui-col-md-4 mdui-col-sm-6">
           <div class="mdui-card">
             <div class="mdui-card-media">
-              <img src="1.jpg"/>
+              <img src="imges\2.jpg"/>
             </div>
             <div class="mdui-card-primary">
               <div class="mdui-card-primary-title">人机交互技术与应用</div>
               <div class="mdui-card-primary-subtitle">孙国玉 李海燕</div>
             </div>
             <div class="mdui-card-content">该课程是数字媒体艺术(网络与智能媒体设计方向）专业的必修课程，其特点是概念多、涉及面广、实践性强...</div>
+            <div class="mdui-card-actions">
+              <button class="mdui-btn mdui-btn-icon mdui-float-right">
+                <i class="mdui-icon material-icons">arrow_forward</i>
+              </button>
+            </div>
           </div>
         </div>
 
         <!-- js能否动态创建卡片？ -->
+        <div class="mdui-col-md-4 mdui-col-sm-6">
+          <div class="mdui-card">
+            <div class="mdui-card-media">
+              <img src="imges\2.jpg"/>
+            </div>
+            <div class="mdui-card-primary">
+              <div class="mdui-card-primary-title">新建</div>
+              <div class="mdui-card-primary-subtitle">-</div>
+            </div>
+            <div class="mdui-card-content">-</div>
+            <div class="mdui-card-actions">
+              <button class="mdui-btn mdui-btn-icon mdui-float-right" disabled>
+                <i class="mdui-icon material-icons">arrow_forward</i>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
-
+    <footer class="mdui-color-teal-300 banner"></footer>
     <!-- MDUI JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/js/mdui.min.js"></script>
   </body>
